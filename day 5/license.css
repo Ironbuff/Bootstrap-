@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Global Styling */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* Theme Color */
+:root{
+    --primary-color:rgb(190, 7, 7);
+    --secondary-color:whitesmoke;
+    --tetritary-color:blue;
+    --quaternary-color:black;
+}
+/* global styling */
+.dflex{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* Styling navbar */
+header{
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    background-color: var(--tetritary-color);
+}
+/* top navbar section styling */
+.topnavbar_container{
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5ch;
+    border: 1px solid black;
+    padding: 0rem 5rem;
+    align-items: center;
+}
+/* social container styling */
+.social_container ul li a, .social_container ul li a i{
+    color: whitesmoke;
+    align-items: center;
+    font-size: small;
+    gap: 0.5rem;
+    display: flex;
+}
+/* styling right side of top navbar */
+.left_container{
+    align-items: center;
+    display: flex;
+    color: var(--secondary-color);
+}
+/* styling search container */
+.search_container i{
+    color: white;
+    width: auto;
+    height: 10px;
+}
+/* styling button part */
+.btn_container .b{
+    background-color: var(--primary-color);
+    padding: 2px 3px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+/* darktheme_container */
+.darktheme_container i{    
+    color: white;
+}
+/* normal text styling */
+.text_container{
+    font-weight: normal;
+    font-size: small;
+}
+/* text size styling */
+.textsize_container{
+    display: flex;
+    gap: 1rem;
+    font-size: smaller;
+}
+/*  styling navitems */
+.topleftnavitem_container{
+    gap: 1rem;
+    font-weight: normal;
+    font-size: small;
+}

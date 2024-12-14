@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Playfair Display", serif;
+        }   
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+   <!-- First Row -->
+   <div class="bg-dark text-white py-1">
+    <div class="container d-flex justify-content-between">
+        <div>
+          <img src="https://portal.tu.edu.np/medias/TULogoTIF-2_2024_04_21_11_26_49.jpg" alt="Logo" width="30" height="30" class="me-2 bg-dark">
+            <a href="#" class="text-white me-3 text-decoration-none">NEWS</a>
+            <a href="#" class="text-white me-3 text-decoration-none">NOTICE</a>
+            <a href="#" class="text-white me-3 text-decoration-none">EVENTS</a>
+            <a href="#" class="text-white me-3 text-decoration-none">RESOURCES</a>
+            <a href="#" class="text-white me-3 text-decoration-none">SCHOLARSHIPS</a>
+            <a href="#" class="text-white text-decoration-none">RULES</a>
+        </div>
+        <div>
+            <form class="d-flex">
+                <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-sm btn-outline-light" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Second Row -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo and Title -->
+        <div class="d-flex align-items-center">
+            <img src="https://portal.tu.edu.np/medias/TULogoTIF-2_2024_04_21_11_26_49.jpg" alt="Logo" width="50" height="50" class="me-2">
+            <div>
+                <h5 class="mb-0">Tribhuvan University</h5>
+                <small>Kirtipur, Kathmandu</small>
+            </div>
+        </div>
+        <!-- Contact Info and Social Icons -->
+        <div class="d-flex align-items-center">
+            <div class="me-3">
+                <i class="fas fa-phone"></i> 014330433
+            </div>
+            <div class="me-3">
+                <i class="fas fa-envelope"></i> <a href="mailto:info@tu.edu.np" class="text-decoration-none">info@tu.edu.np</a>
+            </div>
+            <div>
+                <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Third Row -->
+<div class="bg-primary text-white">
+    <div class="container d-flex justify-content-between py-2">
+        <div>
+            <a href="#" class="text-white me-3 text-decoration-none">
+                <i class="fas fa-home"></i> Authorities
+            </a>
+            <a href="#" class="text-white me-3 text-decoration-none">
+                <i class="fas fa-building"></i> Central Offices
+            </a>
+            <a href="#" class="text-white me-3 text-decoration-none">
+                <i class="fas fa-graduation-cap"></i> Institute / Faculty
+            </a>
+            <a href="#" class="text-white me-3 text-decoration-none">
+                <i class="fas fa-city"></i> Campuses/Departments
+            </a>
+            <a href="#" class="text-white me-3 text-decoration-none">
+                <i class="fas fa-flask"></i> Research Centers
+            </a>
+            <a href="#" class="text-white me-3 text-decoration-none">
+                <i class="fas fa-pencil-alt"></i> Other Offices
+            </a>
+            <a href="#" class="text-white text-decoration-none">
+                Contact Us
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Highlight Bar -->
+<div class="bg-dark text-white text-center py-2">
+    <small>
+        <i class="fas fa-info-circle"></i> त्रिभुवन विश्वविद्यालय सार्वजनिक पदमा नियुक्तिका आधार र मापदण्डसम्बन्धी विनियम २०५९
+    </small>
+</div>
+
+      <!-- Modal -->
+       <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fill the Form</h1>
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Hero-->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://portal.tu.edu.np/medias/registraroffice_2023_05_04_08_14_47.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block justify-content-center px-3 py-4">
+                <h5>The University Campus, Kirtipur</h5>
+                <button class="px-2 py-2 align-items-center bg-primary">+ Learn More</button>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://portal.tu.edu.np/medias/saroj_2024_04_01_13_55_36.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block justify-content-center px-3 py-4">
+              <h5>Tribhuvan University, Central Library, Kirtipur</h5>
+              <button class="px-2 py-2 align-items-center bg-primary">+ Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://portal.tu.edu.np/medias/15a5ce60-f865-4352-b38d-73d66a_2024_11_21_18_57_22.jpg" height="500" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block justify-content-center px-3 py-4">
+              <h5>Tribhuvan University and Chinese Academy of Sciences Renew MoU for Scientific Collaboration</h5>
+              <button class="px-2 py-2 align-items-center bg-primary">+ S</button>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+      <!-- News & Notices -->
+       <div class="container my-5">
+       <div class="row gap-5">
+        <div class="col-7 p-0 m-0">
+          
+            <div class="bg-light py-3 px-3">
+                <div class="d-flex align-items-between justify-content-between">
+                    <h3 class="text-primary">News</h3>
+                    <button class="btn btn-warning">+ More</button>
+                </div>
+            </div>
+
+            <div class="row mt-3 gap-3">
+                <div class="col border border-light-subtle">
+                    <img class="img-fluid mb-2" src="https://portal.tu.edu.np/medias/IMG_1592_2024_12_08_13_57_46.jpg" alt="">
+                    <a href="" class="h5  text-decoration-none">समावेशी शिक्षामा अन्तर्राष्ट्रिय सम्मेलन </a>
+
+                    <div class="py-3">
+                        <p class="text-warning">📅 २३ मङ्सिर २०८१</p>
+                    </div>
+                </div>
+                <div class="col border border-light-subtle">
+                    <img class="img-fluid mb-2" src="https://portal.tu.edu.np/medias/IMG_1407_2024_12_02_11_24_13.jpg" alt="">
+                    <a href="" class="h5  text-decoration-none">13 Students Honored with KCRE Excellent Thesis Grant</a>
+
+                    <div class="py-3">
+                        <p class="text-warning gap-3"><i class="fa-regular fa-calendar"></i>१४ मङ्सिर २०८१</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row mt-3 gap-3">
+                <div class="col border border-light-subtle">
+                    <img class="img-fluid mb-2" src="https://portal.tu.edu.np/medias/15a5ce60-f865-4352-b38d-73d66a_2024_11_21_18_57_22.jpg" alt="">
+                    <a href="" class="h5  text-decoration-none">चीनका शैक्षिक संस्थानहरूसँग त्रिविको सहकार्य </a>
+
+                    <div class="py-3">
+                        <p class="text-warning"><i class="fa-regular fa-calendar"></i>५ मङ्सिर २०८१</p>
+                    </div>
+                </div>
+                <div class="col border border-light-subtle">
+                    <img class="img-fluid mb-2" src="https://portal.tu.edu.np/medias/ITPCAS_2024_11_23_13_25_32.jpg" alt="">
+                    <a href="" class="h5  text-decoration-none">Tribhuvan University and Institute of Tibetan Plateau Research Strengthen Scientific Collaboration</a>
+
+                    <div class="py-3">
+                        <p class="text-warning gap-3"><i class="fa-regular fa-calendar"></i> ८ मङ्सिर २०८१</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row mt-3 gap-3">
+                <div class="col border border-light-subtle">
+                    <img class="img-fluid mb-2" src="https://portal.tu.edu.np/medias/IMG_1261_2024_11_21_18_53_06.jpg" alt="">
+                    <a href="" class="h5  text-decoration-none">Tribhuvan University and Chinese Academy of Sciences Renewed MoU for Scientific Collaboration</a>
+
+                    <div class="py-3">
+                        <p class="text-warning gap-3"><i class="fa-regular fa-calendar"></i> ६ मङ्सिर २०८१</p>
+                    </div>
+                </div>
+                <div class="col border border-light-subtle">
+                    <img class="img-fluid mb-2 " src="https://portal.tu.edu.np/medias/IMG_0835_2024_10_21_11_50_49.jpg" alt="">
+                    <a href="" class="h5  text-decoration-none">Winter School on Glacier Studies Inaugurated at Tribhuvan University</a>
+
+                    <div class="py-3">
+                        <p class="text-warning gap-3"><i class="fa-regular fa-calendar"></i> ५ कार्तिक २०८१</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="col p-0 m-0">
+           
+            <div class="bg-light py-3 px-3">
+                <div class="d-flex align-items-between justify-content-between">
+                    <h3 class="text-primary">Notices</h3>
+                    <button class="btn btn-warning">+ More</button>
+                </div>
+            </div>
+            <div class="container my-4">
+              <!-- First Notification -->
+              <div class="row align-items-center mb-3">
+                <div class="col-2 bg-primary">
+                  <div class=" text-white text-center py-2 h-100 d-flex flex-column justify-content-center">
+                    <div class="fs-4 fw-bold">५</div>
+                    <div class="fs-6">कार्तिक</div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="border-start border-primary ps-3">
+                    सहप्राधिक्षा नियन्त्रक पदका आवेदनहरू
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Second Notification -->
+              <div class="row align-items-center mb-3">
+                <div class="col-2 bg-primary">
+                  <div class=" text-white text-center py-2 h-100 d-flex flex-column justify-content-center">
+                    <div class="fs-4 fw-bold">१७</div>
+                    <div class="fs-6">मङ्सिर</div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="border-start border-primary ps-3">
+                    व्यवहारिक विज्ञान तथा प्रविधि अनुसन्धान केन्द्र (रिकास्ट) को
+                    कार्यकारी निर्देशक छानोट समितिको सूचना।
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Third Notification -->
+              <div class="row align-items-center mb-3">
+                <div class="col-2 bg-primary">
+                  <div class=" text-white text-center py-2 h-100 d-flex flex-column justify-content-center">
+                    <div class="fs-4 fw-bold">११</div>
+                    <div class="fs-6">मङ्सिर</div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="border-start border-primary ps-3">
+                    वन विज्ञान अध्ययन संस्थानको डिन छानोट समितिको सूचना।
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Fourth Notification -->
+              <div class="row align-items-center mb-3">
+                <div class="col-2 bg-primary">
+                  <div class=" text-white text-center py-2 h-100 d-flex flex-column justify-content-center">
+                    <div class="fs-4 fw-bold">२०</div>
+                    <div class="fs-6">कार्तिक</div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="border-start border-primary ps-3">
+                    सूचना
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Fifth Notification -->
+              <div class="row align-items-center mb-3">
+                <div class="col-2 bg-primary">
+                  <div class=" text-white text-center py-2 h-100 d-flex flex-column justify-content-center">
+                    <div class="fs-4 fw-bold">६</div>
+                    <div class="fs-6">कार्तिक</div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="border-start border-primary ps-3">
+                    सहप्राधिक्षा नियन्त्रक छानोट समितिको सूचना।
+                  </div>
+                </div>
+              </div>
+              <div class="bg-light">
+                <div class="d-flex align-items-between justify-content-between">
+                    <h3 class="text-primary fw-small">Download</h3>
+                    <button class="btn btn-warning fw-small">+ More</button>    
+                </div>
+                <div class="pdf_container1 border-light-subtle py-3">
+                  <ul class="list-group list-group-flush">
+                    <!-- PDF 1 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      <div class="py-3">
+                        <span class="badge bg-danger me-2 position-absolute top-0 right-0 ">PDF</span>
+                        त्रि.वि परीक्षानियन्त्रण कार्यालयसँग सम्बन्धित फारामहरु
+                      </div>
+                      <div>
+                       <a href="#" class="text-decoration-none">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                      </a>
+                       </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div> 
+                <div class="pdf_container2 py-3">
+                  <ul class="list-group list-group-flush">
+                    <!-- PDF 2 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      <div class="py-3">
+                        <span class="badge bg-danger me-2 position-absolute top-0 right-0 ">PDF</span>
+                        त्रिभुवन विश्वविद्यालय सावधिक पदमा नियुक्तिका आधार र मापदण्डसम्बन्धी विनियम २०८१
+                      </div>
+                      <div>
+                       <a href="#" class="text-decoration-none">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                      </a>
+                       </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div> 
+                <div class="pdf_container3 py-3">
+                  <ul class="list-group list-group-flush">
+                    <!-- PDF 3 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      <div class="py-3">
+                        <span class="badge bg-danger me-2 position-absolute top-0 right-0 ">PDF</span>
+                        TU Today - 2081 (2024-2025)
+                      </div>
+                      <div>
+                       <a href="#" class="text-decoration-none">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                      </a>
+                       </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div> 
+                <div class="pdf_container4 py-3">
+                  <ul class="list-group list-group-flush">
+                    <!-- PDF 4 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      <div class="py-3">
+                        <span class="badge bg-danger me-2 position-absolute top-0 right-0 ">PDF</span>
+                        TU Annual Publication 2081
+                      </div>
+                      <div>
+                       <a href="#" class="text-decoration-none">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                      </a>
+                       </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div> 
+                <div class="pdf_container5 py-3">
+                  <ul class="list-group list-group-flush">
+                    <!-- PDF 5 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      <div class="py-3">
+                        <span class="badge bg-danger me-2 position-absolute top-0 right-0 ">PDF</span>
+                        एन्टी प्लेजरिजम सफ्टवेयर व्यवस्थापन तथा सञ्चालन सम्वन्धी विनियम २०८०
+                      </div>
+                      <div>
+                       <a href="#" class="text-decoration-none">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                      </a>
+                       </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>  
+                <div class="pdf_container6 py-3">
+                  <ul class="list-group list-group-flush">
+                    <!-- PDF 6 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      <div class="py-3">
+                        <span class="badge bg-danger me-2 position-absolute top-0 right-0 ">PDF</span>
+                        खुला तथा दुरसिकाई कार्यविधि २०७५
+                      </div>
+                      <div>
+                       <a href="#" class="text-decoration-none">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                      </a>
+                       </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>                                                      
+              </div>
+            </div>    
+          </div>  
+         </div>    
+       </div>
+      </div>
+      <!-- background image with text -->
+      <!-- Hero Section with Background Image -->
+      <div class="bg-dark text-white position-relative" style="background: url('https://portal.tu.edu.np/medias/IMG_6136_2023_02_07_04_10_24.jpg') no-repeat center center / cover; height: 100vh;">
+        <!-- Overlay -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    
+        <!-- Content -->
+        <div class="container h-100 d-flex justify-content-center align-items-center position-relative text-center">
+          <div>
+            <h1 class="fw-bold display-4">TU Convocation</h1>
+            <p class="lead">
+              Tribhuvan University holds two types of convocations: regular and special. Regular convocation is held every year for conferring Bachelor’s, Master’s, Master in Philosophy (M.Phil.) and ...
+            </p>
+            <a href="#" class="btn btn-primary btn-lg mt-3">More Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Events Card -->
+       <!-- Events Section -->
+      <div class="container-fluid bg-light border border-light mt-4 mb-4 px-5 width-70">
+        <div class="row align-items-center">
+          <!-- Events Title Section -->
+          <div class="col-md-3 text-center text-md-start">
+            <h2 class="fw-bold">Events</h2>
+           <button class="btn btn-warning text-white">All Events</button>
+          </div>
+
+          <!-- Event Card -->
+          <div class="col-md-3 position-relative">
+           <!-- Image -->
+           <div class="position-relative">
+             <img src="https://portal.tu.edu.np/medias/YamanSihnaBohara_2024_10_04_20_58_12.jpeg" class="img-fluid w-100" alt="Event Image">
+              <!-- Date Badge -->
+              <div class="position-absolute top-0 start-0 bg-primary text-white p-2 text-center" style="width: 60px;">
+                 <h4 class="mb-0">18</h4>
+                 <small>असोज</small>
+               </div>
+             <!-- Overlay Text -->
+              <div class="position-absolute bottom-0 start-0 w-100 text-white bg-dark bg-opacity-50 p-2">
+                 <p class="mb-0 fw-bold">Yaman Sinha Bohara,</p>
+                 <p class="mb-0">Spokesperson, Tribhuvan University</p>
+              </div>
+            </div>
+          </div>
+         <!-- Placeholder for empty space -->
+          <div class="col-md-6"></div>
+        </div>
+     </div>
+     <!-- Section for Images -->
+      <section class="journal_container">
+        <div class="journaldiv_container" style="background: url(assets/temp1/images/prlax-3.jpg)";></div>
+
+      </section>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
